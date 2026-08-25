@@ -17,7 +17,7 @@ spec:
     - from:
         - podSelector:
             matchLabels:
-              app: frontend
+              app: frontend-fail
 
       ports:
         - protocol: TCP
